@@ -17,6 +17,7 @@
 		0AD3AE2F2509B99D0001FE1E /* EmojiDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3AE2D2509B99D0001FE1E /* EmojiDetailController.swift */; };
 		0AD3AE312509BE890001FE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD3AE302509BE890001FE1E /* LaunchScreen.storyboard */; };
 		AFAF5EAE2756630F00D9AE78 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF5EAD2756630F00D9AE78 /* DataSource.swift */; };
+		AFAF5EB027566D8000D9AE78 /* EmojiCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF5EAF27566D8000D9AE78 /* EmojiCollectionViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0AD3AE2D2509B99D0001FE1E /* EmojiDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiDetailController.swift; sourceTree = "<group>"; };
 		0AD3AE302509BE890001FE1E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAF5EAD2756630F00D9AE78 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		AFAF5EAF27566D8000D9AE78 /* EmojiCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0AD3AE162509B8FA0001FE1E /* AppDelegate.swift */,
 				0AD3AE182509B8FA0001FE1E /* SceneDelegate.swift */,
 				0AD3AE2C2509B99D0001FE1E /* Emoji.swift */,
+				AFAF5EAF27566D8000D9AE78 /* EmojiCollectionViewDelegate.swift */,
 				AFAF5EAD2756630F00D9AE78 /* DataSource.swift */,
 				0AD3AE2D2509B99D0001FE1E /* EmojiDetailController.swift */,
 				0AD3AE1A2509B8FA0001FE1E /* ViewController.swift */,
@@ -155,6 +158,7 @@
 				0AD3AE172509B8FA0001FE1E /* AppDelegate.swift in Sources */,
 				0AD3AE2F2509B99D0001FE1E /* EmojiDetailController.swift in Sources */,
 				0AD3AE2B2509B9580001FE1E /* EmojiCell.swift in Sources */,
+				AFAF5EB027566D8000D9AE78 /* EmojiCollectionViewDelegate.swift in Sources */,
 				0AD3AE192509B8FA0001FE1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +298,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9YBSUGNH;
 				INFOPLIST_FILE = EmojiLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.EmojiLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,12 +316,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9YBSUGNH;
 				INFOPLIST_FILE = EmojiLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.EmojiLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
