@@ -18,6 +18,7 @@
 		0AD3AE312509BE890001FE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD3AE302509BE890001FE1E /* LaunchScreen.storyboard */; };
 		AFAF5EAE2756630F00D9AE78 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF5EAD2756630F00D9AE78 /* DataSource.swift */; };
 		AFAF5EB027566D8000D9AE78 /* EmojiCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF5EAF27566D8000D9AE78 /* EmojiCollectionViewDelegate.swift */; };
+		AFAF5EB227567B9000D9AE78 /* EmojiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAF5EB127567B9000D9AE78 /* EmojiHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0AD3AE302509BE890001FE1E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFAF5EAD2756630F00D9AE78 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		AFAF5EAF27566D8000D9AE78 /* EmojiCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		AFAF5EB127567B9000D9AE78 /* EmojiHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				AFAF5EAF27566D8000D9AE78 /* EmojiCollectionViewDelegate.swift */,
 				AFAF5EAD2756630F00D9AE78 /* DataSource.swift */,
 				0AD3AE2D2509B99D0001FE1E /* EmojiDetailController.swift */,
+				AFAF5EB127567B9000D9AE78 /* EmojiHeaderView.swift */,
 				0AD3AE1A2509B8FA0001FE1E /* ViewController.swift */,
 				0AD3AE2A2509B9580001FE1E /* EmojiCell.swift */,
 				0AD3AE1C2509B8FA0001FE1E /* Main.storyboard */,
@@ -154,6 +157,7 @@
 			files = (
 				AFAF5EAE2756630F00D9AE78 /* DataSource.swift in Sources */,
 				0AD3AE2E2509B99D0001FE1E /* Emoji.swift in Sources */,
+				AFAF5EB227567B9000D9AE78 /* EmojiHeaderView.swift in Sources */,
 				0AD3AE1B2509B8FA0001FE1E /* ViewController.swift in Sources */,
 				0AD3AE172509B8FA0001FE1E /* AppDelegate.swift in Sources */,
 				0AD3AE2F2509B99D0001FE1E /* EmojiDetailController.swift in Sources */,
