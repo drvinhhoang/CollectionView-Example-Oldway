@@ -11,16 +11,15 @@ class EmojiCollectionViewDelegate: NSObject, UICollectionViewDelegateFlowLayout 
     
     let numberOfItemsPerRow: CGFloat
     let interItemSpacing: CGFloat
-    
-    
-    
+
     init(numberOfItemsPerRow: CGFloat, interItemSpacing: CGFloat) {
         self.numberOfItemsPerRow = numberOfItemsPerRow
         self.interItemSpacing = interItemSpacing
-        
     }
     
     
+    
+    //1. Specify the size of each item
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let maxWidth = UIScreen.main.bounds.width
@@ -31,10 +30,30 @@ class EmojiCollectionViewDelegate: NSObject, UICollectionViewDelegateFlowLayout 
         
     }
     
-    
+    //2. Specify item's minimum spacing
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return interItemSpacing
+        
+        switch section {
+        case 0:
+            return 30
+        default:
+            return interItemSpacing
+        }
+
+        }
+    
+    // 3. Specify minimum spacing between lines.
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        
+        switch section {
+        case 0:
+            return 30
+        default:
+            return interItemSpacing
+        }
     }
+        
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

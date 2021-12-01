@@ -65,19 +65,30 @@ extension DataSource {
         
     }
     
+    
+    // Delete 1 item at an indexpath
     func deleteEmoji(at indexPath: IndexPath) {
         
+        
+        // Identify selected item's section:
         let category = emojis.sections[indexPath.section]
+        
+        // Get all items of that section and assign all of them to a temporary variable.
         guard var emojiData = emojis.data[category] else { return }
         
+        // Remove item in temporary variable.
         emojiData.remove(at: indexPath.item)
         
+        // change value in dictionary for key category (category is selected's section)
         emojis.data.updateValue(emojiData, forKey: category)
         
     }
     
+    
+    // Delete multiple items at multiple selections.
     func deleteEmoji(at indexPaths: [IndexPath]) {
         
+        // delete items at multiple indexpaths.
         for path in indexPaths {
             deleteEmoji(at: path)
         }
